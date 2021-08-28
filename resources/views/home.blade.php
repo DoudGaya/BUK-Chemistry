@@ -301,7 +301,7 @@
                 <div class="col-md-6">
                   <div class="text-box padding-3">
                     <h5 class="uppercase roboto-slab font-weight-4"><a href="#">Library</a></h5>
-                    <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Benjamin</span> <span><i class="fa fa-comments-o"></i> 15</span> </div>
+                    <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Musbahu Ibrahim</span> <span><i class="fa fa-comments-o"></i> 15</span> </div>
                     <br/>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis.</p>
                   </div>
