@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Buk - Chemistry Department</title>
+<title>BUK - Chemistry Department</title>
 <meta charset="utf-8">
 <!-- Meta -->
 <meta name="keywords" content="" />
@@ -21,13 +21,13 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 <!-- Stylesheets -->
-<link rel="stylesheet" media="screen" href=" {{ asset('files/js/bootstrap/bootstrap.min.css') }}" type="text/css" />
-<link rel="stylesheet" href=" {{ asset('files/js/mainmenu/menu.css') }}" type="text/css" />
-<link rel="stylesheet" href=" {{ asset('files/css/default.css') }}" type="text/css" />
-<link rel="stylesheet" href=" {{ asset('files/css/layouts.css') }}" type="text/css" />
 
 {{-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> --}}
 
+<link rel="stylesheet" media="screen" href=" {{ asset('files/js/bootstrap/bootstrap.min.css') }}" type="text/css" />
+<link rel="stylesheet" href=" {{ asset('files/js/mainmenu/menu.css') }}" type="text/css" />
+<link rel="stylesheet" href=" {{ asset('files/css/layouts.css') }}" type="text/css" />
+<link rel="stylesheet" href=" {{ asset('files/css/default.css') }}" type="text/css" />
 <link rel="stylesheet" href=" {{ asset('files/css/shortcodes.css') }}" type="text/css" />
 <link rel="stylesheet" href=" {{ asset('files/css/font-awesome/css/font-awesome.min.css') }}">
 <link rel="stylesheet" media="screen" href=" {{ asset('files/css/responsive-leyouts.css') }}" type="text/css" />
@@ -36,6 +36,7 @@
 <link rel="stylesheet" href=" {{ asset('files/css/et-line-font/et-line-font.css') }}">
 <link href=" {{ asset('files/js/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href=" {{ asset('files/js/tabs/assets/css/responsive-tabs.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('files/js/cubeportfolio/cubeportfolio.min.css') }}">
 <link rel="stylesheet" href=" {{ asset('files/css/colors/lightblue.css') }}" />
 </head>
 
@@ -100,7 +101,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-7 col-centered text-center">
-          <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3">Get Many More Features With Hasta</h3>
+          <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3">Get More out of Chemistry </h3>
           <br/>
           <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus.</p>
           <br/>
@@ -260,7 +261,8 @@
 <script type="text/javascript" src=" {{ asset('files/js/tabs/custom.js') }}"></script> 
 <script src=" {{ asset('files/js/scrolltotop/totop.js') }}"></script> 
 <script src=" {{ asset('files/js/mainmenu/jquery.sticky.js') }}"></script> 
- 
+<script type="text/javascript" src="{{ asset('files/js/cubeportfolio/jquery.cubeportfolio.min.js') }}"></script> 
+<script type="text/javascript" src="{{ asset('files/js/cubeportfolio/main.js') }}"></script> 
 <script src=" {{ asset('files/js/scripts/functions.js') }}" type="text/javascript"></script>
 </body>
 </html>

@@ -40,7 +40,7 @@
 			data-delay="2000"
 			data-ease="easeOutExpo"
 			data-duration="1200"
-			data-effect="right(250)"> Apply Now ! </a> 
+			data-effect="right(250)"> Learn More ! </a> 
             
             </div>
     <!-- end slide 1 --> 
@@ -81,7 +81,7 @@
 			data-delay="2000"
 			data-ease="easeOutExpo"
 			data-duration="1200"
-			data-effect="right(250)"> Apply Now ! </a> 
+			data-effect="right(250)"> Get Started ! </a> 
             
             </div>
     <!-- end slide 2 -->
@@ -133,7 +133,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-centered">
-          <h2 class="less-mar3 roboto-slab text-white text-center font-weight-3">Chemistry Department</h3>
+          <h2 class="less-mar3 roboto-slab text-white text-center font-weight-3">CHEMISTRY DEPARTMENT</h3>
           <h3 class="less-mar3 roboto-slab text-white text-center font-weight-3">Bayero University Kano</h3>
         </div>
       </div>
@@ -161,7 +161,7 @@
               <div class="hover-strip">
                 <h4 class="text-white nopadding roboto-slab font-weight-3">Experiments<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
               </div>
-              <img src="http://placehold.it/400x200" alt="" class="img-responsive"/> </div>
+              <img src="{{ asset('files/images/banners/experiment.jpg') }}" alt="" class="img-responsive"/> </div>
             </a> </div>
           <!--end item--> 
           
@@ -172,9 +172,9 @@
           <div class="feature-box-81 bmargin"> <a href="#">
             <div class="image-holder">
               <div class="hover-strip active">
-                <h4 class="text-white nopadding roboto-slab font-weight-3">Courses<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
+                <h4 class="text-white nopadding roboto-slab font-weight-3">Facilities<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
               </div>
-              <img src="http://placehold.it/430x470" alt="" class="img-responsive"/> </div>
+              <img src="{{ asset('files/images/banners/facilities1.jpg') }}" alt="" class="img-responsive"/> </div>
             </a> </div>
           <!--end item--> 
           
@@ -187,7 +187,7 @@
               <div class="hover-strip">
                 <h4 class="text-white nopadding roboto-slab font-weight-3">Activities<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
               </div>
-              <img src="http://placehold.it/400x200" alt="" class="img-responsive"/> </div>
+              <img src="{{ asset('files/images/banners/activities.jpg') }}" alt="" class="img-responsive"/> </div>
             </a> </div>
           <!--end item-->
           
@@ -197,7 +197,7 @@
               <div class="hover-strip">
                 <h4 class="text-white nopadding roboto-slab font-weight-3">Learning<span class="pull-right"><i class="fa fa-angle-double-right"></i></span></h4>
               </div>
-              <img src="http://placehold.it/400x200" alt="" class="img-responsive"/> </div>
+              <img src="{{ asset('files/images/banners/learning.jpg') }}" alt="" class="img-responsive"/> </div>
             </a> </div>
           <!--end item--> 
           
@@ -242,7 +242,7 @@
 			data-ease="easeOutExpo"
 			data-duration="1230"
 			data-effect="scale(1.5,1.6)"> Lorem ipsum dolor sit </h3>
-                <img src="js/masterslider/blank.gif" data-src="http://placehold.it/600x300" alt=""/> <a href="http://player.vimeo.com/video/80567526" data-type="video"></a> </div>
+                <img src="js/masterslider/blank.gif" data-src="{{ asset('files/images/video.jpg')}}" alt=""/> <a href="http://player.vimeo.com/video/80567526" data-type="video"></a> </div>
               <!-- end --> 
               
             </div>
@@ -275,7 +275,7 @@
                       <div class="post-infoicon"><i class="fa fa-comment"></i> 20</div>
                       <div class="post-infoicon"><i class="fa fa-share"></i> Share</div>
                     </div>
-                    <img src="http://placehold.it/1000x1000" alt="" class="img-responsive"/> </div>
+                    <img src=" {{ asset('files/images/banners/post1.jpg')}} " alt="" class="img-responsive"/> </div>
                   </a> </div>
                 <div class="col-md-6">
                   <div class="text-box padding-3">
@@ -296,11 +296,11 @@
                       <div class="post-infoicon"><i class="fa fa-comment"></i> 20</div>
                       <div class="post-infoicon"><i class="fa fa-share"></i> Share</div>
                     </div>
-                    <img src="http://placehold.it/1000x1000" alt="" class="img-responsive"/> </div>
+                    <img src="{{ asset('files/images/banners/post2.jpg')}}" alt="" class="img-responsive"/> </div>
                   </a> </div>
                 <div class="col-md-6">
                   <div class="text-box padding-3">
-                    <h5 class="uppercase roboto-slab font-weight-4"><a href="#">Library</a></h5>
+                    <h5 class="uppercase roboto-slab font-weight-4"><a href="#">Science Post</a></h5>
                     <div class="blog-post-info"> <span><i class="fa fa-user"></i> By Musbahu Ibrahim</span> <span><i class="fa fa-comments-o"></i> 15</span> </div>
                     <br/>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis.</p>
@@ -424,7 +424,7 @@
   <!-- end section -->
   <div class="clearfix"></div>
   
-  <section class="parallax-section58">
+  <section class="parallax-section1">
     <div class="section-overlay bg-opacity-7">
       <div class="container sec-tpadding-3 sec-bpadding-3">
         <div class="row">
@@ -480,7 +480,7 @@
                   </div>
                   <div class="image-holder">
                     <div class="overlay"></div>
-                    <img src="http://placehold.it/450x350" alt="" class="img-responsive"/> </div>
+                    <img src="{{ asset('files/images/gallery/home1.jpg')}}" alt="" class="img-responsive"/> </div>
                 </div>
               </div>
               <div class="item">
@@ -493,7 +493,7 @@
                   </div>
                   <div class="image-holder">
                     <div class="overlay"></div>
-                    <img src="http://placehold.it/450x350" alt="" class="img-responsive"/> </div>
+                    <img src="{{ asset('files/images/gallery/home2.jpg')}}" alt="" class="img-responsive"/> </div>
                 </div>
               </div>
               <div class="item">
@@ -506,7 +506,7 @@
                   </div>
                   <div class="image-holder">
                     <div class="overlay"></div>
-                    <img src="http://placehold.it/450x350" alt="" class="img-responsive"/> </div>
+                    <img src="{{ asset('files/images/gallery/home3.jpg')}}" alt="" class="img-responsive"/> </div>
                 </div>
               </div>
             </div>
