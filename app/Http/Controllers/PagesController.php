@@ -33,4 +33,27 @@ class PagesController extends Controller
     public function admission() {
         return view('admission');
     }
+
+    // new controller actions 
+
+    public function research() {
+        return view('research');
+    }
+    
+
+    public function courses() {
+        return view('courses');
+    }
+
+    public function students() {
+        return view('student');
+    }
+
+    public function jobs() {
+        return view('jobs');
+    }
+
+    public function library() {
+        return view('library');
+    }
 }

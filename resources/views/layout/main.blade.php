@@ -28,6 +28,7 @@
 <link rel="stylesheet" href=" {{ asset('files/js/mainmenu/menu.css') }}" type="text/css" />
 <link rel="stylesheet" href=" {{ asset('files/css/layouts.css') }}" type="text/css" />
 <link rel="stylesheet" href=" {{ asset('files/css/default.css') }}" type="text/css" />
+<link rel="stylesheet" href=" {{ asset('files/css/forms.css') }}" type="text/css" />
 <link rel="stylesheet" href=" {{ asset('files/css/shortcodes.css') }}" type="text/css" />
 <link rel="stylesheet" href=" {{ asset('files/css/font-awesome/css/font-awesome.min.css') }}">
 <link rel="stylesheet" media="screen" href=" {{ asset('files/css/responsive-leyouts.css') }}" type="text/css" />
@@ -71,18 +72,17 @@
           <a href="index.html" class="navbar-brand less-top-padding"><img src="images/logo.png" alt=""/></a> </div>
         <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-right">
           <ul class="nav pink-3 navbar-nav">
-            <li><a href="index.html" class="dropdown-toggle active">Home</a></li>
+            <li><a href="i{{ route('home')}}" class="dropdown-toggle active">Home</a></li>
             <li><a href="{{ route('about')}}" class="dropdown-toggle">About</a></li>
             <li><a href="{{ route('facilities')}}" class="dropdown-toggle">Facilities</a></li>
             <li><a href="{{ route('admission')}}" class="dropdown-toggle">Admissions</a></li>
-            <li class="dropdown"> <a href="courses.html" class="dropdown-toggle">More +</a>
+            <li class="dropdown"> <a href="{{ route('courses')}}" class="dropdown-toggle">More +</a>
               <ul class="dropdown-menu five" role="menu">
-                <li> <a href="#">Courses</a> </li>
-                <li> <a href="#">Accommodation</a> </li>
-                <li> <a href="#">Jobs</a> </li>
-                <li> <a href="#">Student portal</a> </li>
-                <li> <a href="#">Research</a> </li>
-                <li> <a href="#">Library</a> </li>
+                <li> <a href="{{ route('courses')}}">Courses</a> </li>
+                <li> <a href="{{ route('jobs')}}">Jobs</a> </li>
+                <li> <a href="{{ route('students')}}">Student portal</a> </li>
+                <li> <a href="{{ route('research')}}">Research</a> </li>
+                <li> <a href="{{ route('library')}}">Library</a> </li>
               </ul>
             </li>
             <li><a href="{{ route('gallery')}}" class="dropdown-toggle">Gallery</a></li>
@@ -105,7 +105,7 @@
           <br/>
           <p class="text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit augue. Cras tellus.</p>
           <br/>
-          <a class="btn btn-border white btn-large" href="#">Purchase now</a> </div>
+          <a class="btn btn-border white btn-large" href="#">Start Learning Today</a> </div>
       </div>
     </div>
   </section>
@@ -255,6 +255,7 @@
 })(jQuery);
 </script>  
 <script src=" {{ asset('files/js/mainmenu/customeUI.js') }}"></script> 
+<script src=" {{ asset('files/js/forms.js') }}"></script> 
 <script src=" {{ asset('files/js/owl-carousel/owl.carousel.js') }}"></script> 
 <script src=" {{ asset('files/js/owl-carousel/custom.js') }}"></script> 
 <script type="text/javascript" src=" {{ asset('files/js/tabs/smk-accordion.js') }}"></script>
